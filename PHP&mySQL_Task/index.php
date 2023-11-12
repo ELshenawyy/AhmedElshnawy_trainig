@@ -39,9 +39,9 @@
                     <td><?php echo $row['grade'] ?></td>
                     <td><?php echo $row['gender'] ?></td>
                     <td>
-                        <a href="" class="btn btn-sm btn-info mx-1">show</a>
-                        <a href="" class="btn btn-sm btn-success mx-1">edit</a>
-                        <a href="" class="btn btn-sm btn-warning mx-1">delete</a>
+                        <a href="show.php?id=<?php echo $row['id']?>" class="btn btn-sm btn-info mx-1">show</a>
+                        <a href="edit.php?id=<?php echo $row['id']?>" class="btn btn-sm btn-success mx-1">edit</a>
+                        <a href="delete.php?id=<?php echo $row['id']?>" class="btn btn-sm btn-warning mx-1">delete</a>
                     </td>
                     <tr>
                     </tr>

@@ -1,16 +1,15 @@
 <?php
 
-$host = 'localhost';
-$username = "root";
-$password = "";
-$dpName = "mans";
+    $host = 'localhost';
+    $username = "root";
+    $password = "";
+    $dbName = "mans";
 
+    $conn = mysqli_connect($host , $username , $password , $dbName);
 
-$conn = mysqli_connect($host,$username,$password,$dpName);
-
-if(!$conn){
-    die("connection failed !");
-}
+    if(!$conn) {
+        die('Connection Failed !');
+    }
 /*
 $table = "CREATE TABLE teachers(
 
@@ -36,11 +35,12 @@ $table = "CREATE TABLE teachers(
 
 
     $sql = "INSERT INTO students(name, address, grade, gender) 
-    VALUES('Omar' , 'Mansoura' 98 'male')";
+    VALUES('Omar' , 'Mansoura', 98 ,'male')";
 
 mysqli_query($conn,$sql);
 
 */
+?>
 
 
 

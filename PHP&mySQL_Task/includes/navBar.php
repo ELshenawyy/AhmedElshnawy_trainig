@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ms-auto">
         <a class="nav-link fs-4 mx-1" href="index.php">Home</a>
-        <a class="nav-link fs-4 mx-1" href="add_student.php">Create Student</a>
+        <a class="nav-link fs-4 mx-1" href="create.php">Create Student</a>
     
       </div>
     </div>
